@@ -6,8 +6,20 @@
 
 @font-face {
     font-family: "BackToBlack";
-    src: url("/fonts/Back\ to\ Black\ Demo.ttf")
+    src: url("/fonts/Back\ to\ Black\ Demo.ttf");
 }
+
+@font-face {
+    font-family: "Antipasto";
+    src: url("/fonts/Antipasto-Pro-Regular-trial.ttf");
+}
+
+@font-face {
+    font-family: "LGC";
+    src: url("/fonts/Louis\ George\ Cafe.ttf");
+}
+
+
 
 .item {
     flex: 1;
@@ -28,11 +40,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .titleBar h1 {
-    font-family: "";
+    font-family: "Montserrat", sans-serif;
     margin: 0;
 }
 
