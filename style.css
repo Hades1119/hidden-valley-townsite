@@ -152,7 +152,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 main .item {
@@ -168,7 +168,7 @@ main .item img {
     width: 100%;
 }
 
-main .item p:not(.caption) {
+main .item p:not(.caption):not(.outro) {
     font-family: "CreatoReg", sans-serif;
     font-weight: bold;
     font-size: 1.6rem;
@@ -193,6 +193,14 @@ main .item p:not(.caption) {
     font-style: italic;
     font-size: 1.5rem;
     text-align: center;
+    color: black;
+}
+
+.outro {
+    font-family: "CreatoRegIt", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
 }
 
 /* -------- Footer Body -------- */
