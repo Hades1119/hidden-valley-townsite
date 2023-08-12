@@ -3,37 +3,37 @@
 
 @font-face {
     font-family: "BackToBlack";
-    src: url("/fonts/Back\ to\ Black\ Demo.woff2") format('woff2');
+    src: url("../Fonts/Back\ to\ Black\ Demo.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "Antipasto";
-    src: url("/fonts/Antipasto-Pro-Regular-trial.woff2") format('woff2');
+    src: url("../Fonts/Antipasto-Pro-Regular-trial.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "LGC";
-    src: url("/fonts/Louis\ George\ Cafe.woff2") format('woff2');
+    src: url("../Fonts/Louis\ George\ Cafe.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "CreatoReg";
-    src: url("/fonts/CreatoDisplay-Regular.woff2") format('woff2');
+    src: url("../Fonts/CreatoDisplay-Regular.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "CreatoRegIt";
-    src: url("/fonts/CreatoDisplay-RegularItalic.woff2") format('woff2');
+    src: url("../Fonts/CreatoDisplay-RegularItalic.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "CreatoThinIt";
-    src: url("/fonts/CreatoDisplay-ThinItalic.woff2") format('woff2');
+    src: url("../Fonts/CreatoDisplay-ThinItalic.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "CreatoBlack";
-    src: url("/fonts/CreatoDisplay-Black.woff2") format('woff2');
+    src: url("../Fonts/CreatoDisplay-Black.woff2") format('woff2');
 }
 
 
