@@ -16,6 +16,26 @@
     src: url("/fonts/Louis\ George\ Cafe.ttf");
 }
 
+@font-face {
+    font-family: "CreatoReg";
+    src: url("/fonts/CreatoDisplay-Regular.otf");
+}
+
+@font-face {
+    font-family: "CreatoRegIt";
+    src: url("/fonts/CreatoDisplay-RegularItalic.otf");
+}
+
+@font-face {
+    font-family: "CreatoThinIt";
+    src: url("/fonts/CreatoDisplay-ThinItalic.otf");
+}
+
+@font-face {
+    font-family: "CreatoBlack";
+    src: url("/fonts/CreatoDisplay-Black.otf");
+}
+
 
 /* -------- General -------- */
 
@@ -25,13 +45,21 @@
     box-sizing: content-box;
 }
 
+h1 {
+    margin: 0;
+}
+
 :root {
     font-size: 10px;
+    --main-color: rgb(27, 82, 122);
+    --accent-color: rgb(109, 161, 85);
 }
 
 .item {
     flex: 1;
 }
+
+
 
 
 /* -------- Header -------- */
@@ -41,8 +69,8 @@ header {
     flex-direction: column;
 }
 
-.titleBar {
-    background-color: rgb(27, 82, 122);
+.title-bar {
+    background-color: var(--main-color);
     color: white;
     gap: 5px;
     display: flex;
@@ -52,30 +80,29 @@ header {
     padding: 20px;
 }
 
-.titleBar h1 {
+.title-bar h1 {
     font-family: "Montserrat", sans-serif;
-    margin: 0;
     font-size: 3rem;
 }
 
-.titleBar h4 {
+.title-bar h4 {
     font-family: "Antipasto", sans-serif;
     font-size: 1.5rem;
 }
 
-.navBar {
-    background-color: rgb(109, 161, 85);
+.nav-bar {
+    background-color: var(--accent-color);
     color: white;
 }
 
-.navBar ul {
+.nav-bar ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     padding-inline-start: 0;
     padding: 0 50px;
 
-    color: #FFF;
+    color: white;
     text-align: center;
     font-family: Antipasto Pro;
     font-size: 2rem;
@@ -85,7 +112,7 @@ header {
     margin: 15px;
 }
 
-.navBar ul li {
+.nav-bar ul li {
     font-family: "Antipasto", sans-serif;
 }
 
@@ -115,10 +142,56 @@ header {
 .hero h1 {
     font-family: "BackToBlack", sans-serif;
     font-size: 5rem;
-    margin: 0;
     text-shadow: rgba(0, 0, 0, 45%) 4px 2px;
 }
 
 
 /* -------- Main Body -------- */
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .item {
+    margin: 50px;
+}
+
+main .item img {
+    width: 100%;
+}
+
+main .item p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    color: black;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.hero-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: -10px;
+    color: var(--main-color)
+}
+
+.caption {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+/* -------- Footer Body -------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+    height: 5vh;
+    font-size: 1.6rem;
+}
