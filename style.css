@@ -152,36 +152,47 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 main .item {
-    margin: 50px;
+    margin: 70px 50px;
+    margin-bottom: -30px;
+}
+
+main .item:last-child p {
+    margin: 0px;
 }
 
 main .item img {
     width: 100%;
 }
 
-main .item p {
-    font-family: "Roboto", sans-serif;
+main .item p:not(.caption) {
+    font-family: "CreatoReg", sans-serif;
+    font-weight: bold;
     font-size: 1.6rem;
     color: black;
     text-align: justify;
     text-align-last: center;
+    margin-bottom: 40px;
 }
 
 .hero-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
+    font-family: "CreatoBlack", sans-serif;
+    background-color: rgb(110, 165, 119);
+    color: white;
     font-size: 2rem;
     margin-top: 60px;
     margin-bottom: -10px;
-    color: var(--main-color)
+    padding: 20px;
 }
 
 .caption {
-    font-family: "Roboto", sans-serif;
+    font-family: "CreatoRegIt", sans-serif;
     font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 /* -------- Footer Body -------- */
