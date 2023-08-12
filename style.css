@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+@font-face {
+    font-family: "BackToBlack";
+    src: url("/fonts/Back\ to\ Black\ Demo.ttf")
+}
+
+.item {
+    flex: 1;
+}
+
+/* -------- Header -------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleBar {
+    background-color: rgb(27, 82, 122);
+    color: white;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.titleBar h1 {
+    font-family: "";
+    margin: 0;
+}
+
+.navBar {
+    background-color: rgb(109, 161, 85);
+    color: white;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-inline-start: 0;
+
+
+    color: #FFF;
+    text-align: center;
+    font-family: Antipasto Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px;
+}
+
+.navBar ul li {
+
+}
