@@ -3,32 +3,32 @@
 
 @font-face {
     font-family: "BackToBlack";
-    src: url("/repository/Fonts/Back\ to\ Black\ Demo.ttf") format('ttf');
+    src: url("/Fonts/Back\ to\ Black\ Demo.ttf") format('ttf');
 }
 
 @font-face {
     font-family: "Antipasto";
-    src: url("../Fonts/Antipasto-Pro-Regular-trial.woff2") format('woff2');
+    src: url("./Fonts/Antipasto-Pro-Regular-trial.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "LGC";
-    src: url("../Fonts/Louis\ George\ Cafe.woff2") format('woff2');
+    src: url("./fonts/Louis\ George\ Cafe.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "CreatoReg";
-    src: url("../Fonts/CreatoDisplay-Regular.woff2") format('woff2');
+    src: url("./Fonts/CreatoDisplay-Regular.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "CreatoRegIt";
-    src: url("../Fonts/CreatoDisplay-RegularItalic.woff2") format('woff2');
+    src: url("Fonts/CreatoDisplay-RegularItalic.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "CreatoThinIt";
-    src: url("../Fonts/CreatoDisplay-ThinItalic.woff2") format('woff2');
+    src: url("/Fonts/CreatoDisplay-ThinItalic.woff2") format('woff2');
 }
 
 @font-face {
