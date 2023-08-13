@@ -216,3 +216,42 @@ footer {
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;
 }
+
+/* -------- Media Query for Desktop Size -------- */
+
+@media all and (min-width: 769px) {
+    .item-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .item-wrapper .item {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .item .item-desc {
+        flex: 1;
+    }
+
+    .item .image {
+        flex: 1;
+    }
+
+    .item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    
+    main .item p:not(.caption):not(.outro) {
+        font-size: 3rem;
+    }
+
+    .outro {
+        font-size: 4.5rem;
+    }
+
+}
