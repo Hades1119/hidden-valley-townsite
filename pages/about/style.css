@@ -1,0 +1,122 @@
+/* -------- Fonts -------- */
+
+
+@font-face {
+    font-family: "BackToBlack";
+    src: url("./fonts/Back\ to\ Black\ Demo.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Antipasto";
+    src: url("./fonts/Antipasto-Pro-Regular-trial.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "LGC";
+    src: url("./fonts/Louis\ George\ Cafe.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "CreatoReg";
+    src: url("./fonts/CreatoDisplay-Regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "CreatoRegIt";
+    src: url("./fonts/CreatoDisplay-RegularItalic.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "CreatoThinIt";
+    src: url("./fonts/CreatoDisplay-ThinItalic.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "CreatoBlack";
+    src: url("../Fonts/CreatoDisplay-Black.woff2") format('woff2');
+}
+
+
+/* -------- General -------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+:root {
+    font-size: 10px;
+    --main-color: rgb(27, 82, 122);
+    --accent-color: rgb(109, 161, 85);
+}
+
+.item {
+    flex: 1;
+}
+
+
+
+
+/* -------- Header -------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-bar {
+    background-color: var(--main-color);
+    color: white;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-bar h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+}
+
+.title-bar h4 {
+    font-family: "Antipasto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-bar {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding: 0 50px;
+
+    color: white;
+    text-align: center;
+    font-family: Antipasto Pro;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px;
+}
+
+.nav-bar ul li {
+    font-family: "Antipasto", sans-serif;
+}
+
+.nav-bar ul li:hover {
+    background-color: rgb(84, 128, 64);
+}
+
